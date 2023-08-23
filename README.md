@@ -41,7 +41,7 @@ This guide will walk you through the process of setting up and deploying a WordP
 ## 5. SSL Certificate with Let's Encrypt
 
 1. Install Certbot: `sudo apt install certbot python3-certbot-nginx`.
-2. Obtain SSL certificate: `sudo certbot --nginx -d wordpress.serveirc.com -d www.wordpress.serveirc.com --email your_email@example.com`.here i add email address of mine.
+2. Obtain SSL certificate: `sudo certbot --nginx -d wordpress.serveirc.com -d --email your_email@example.com`.here i add email address of mine.
 
 ## 6. GitHub Repository Setup
 
