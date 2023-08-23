@@ -4,7 +4,7 @@ Certainly! Here's the updated README file with the domain name `wordpress.servei
 
 # Deploying WordPress Website with Nginx, Let's Encrypt, and GitHub Actions
 
-This guide will walk you through the process of setting up and deploying a WordPress website using Nginx as the web server, Let's Encrypt for SSL certificates, and GitHub Actions for automated deployment. By the end of this guide, you'll have a fully functional WordPress site accessible via HTTPS.
+This guide will walk you through the process of setting up and deploying a WordPress website usingWordPress website using Nginx as the web server, LEMP (Linux, Nginx, MySQL, PHP) stack, and GitHub Actions as the CI/CD automation tool. By the end of this guide, you'll have a fully functional WordPress site accessible via HTTPS.
 
 ## Table of Contents
 
