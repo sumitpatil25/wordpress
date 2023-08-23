@@ -51,7 +51,7 @@ This guide will walk you through the process of setting up and deploying a WordP
 ## 7. Automated Deployment with GitHub Actions
 
 1. Inside your repository, navigate to `.github/workflows/`.
-2. Create a new file named `deploy.yml`.
+2. Create a new file named `main.yml`.
 3. Configure the GitHub Actions workflow to automate deployment.
 
 ## 8. Accessing Your WordPress Site
@@ -62,8 +62,4 @@ This guide will walk you through the process of setting up and deploying a WordP
 
 ## Troubleshooting and Assistance
 
-If you encounter issues or need assistance, refer to the provided commands, configuration files, and documentation links. You can also seek help from relevant online communities.
-
----
-
-Feel free to use this README as a template and customize it further based on your specific setup and requirements. A clear and comprehensive README will help others understand and follow the deployment process smoothly.
+If you encounter issues or need assistance, refer to the provided commands, configuration files, and documentation links. 
