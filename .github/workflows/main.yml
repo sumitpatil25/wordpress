@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: '.'
-          target: '/var/www/html/yourdomain.com'
+          target: '/var/www/html/wordpress.serveirc.com'
 
       - name: SSH into server and perform actions
         uses: appleboy/ssh-action@master
