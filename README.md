@@ -19,7 +19,7 @@ This guide will walk you through the process of setting up and deploying a WordP
 
 ## 1. Server Provisioning
 
-1. Choose a cloud provider (e.g., DigitalOcean, AWS) and provision a virtual machine instance.
+1. Choose a cloud provider and provision a virtual machine instance . I used aws.
 2. Securely access your server via SSH using the provided credentials.
 
 ## 2. LEMP Stack Installation
