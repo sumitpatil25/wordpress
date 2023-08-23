@@ -17,8 +17,8 @@ jobs:
           host: ${{ secrets.INSTANCE_SSH_HOST }}
           username: ${{ secrets.INSTANCE_SSH_USERNAME }}
           key: ${{ secrets.INSTANCE_SSH_KEY }}
-          source: "wordpress"  # Specify the path to your WordPress files
-          target: "/var/www/html/wordpress.serveirc.com"  # Web root directory on the server
+          source: "/var/www/html/wordpress.serveirc.com"  # Specify the path to your WordPress files
+          target: "wordpress"  # Web root directory on the server
 
       - name: Reload Nginx
         uses: appleboy/ssh-action@master
