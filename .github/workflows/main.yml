@@ -23,10 +23,11 @@ jobs:
           target: '/var/www/html/wordpress.serveirc.com'
 
       - name: SSH into server and perform actions
-       # uses: appleboy/ssh-action@master
+         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
+           port: ${{secrets.INSTANCE_SSH_PORT}}
           script: |
             sudo systemctl reload nginx
