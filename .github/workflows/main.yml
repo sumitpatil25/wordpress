@@ -17,7 +17,7 @@ jobs:
           host: ${{ secrets.INSTANCE_SSH_HOST }}
           username: ${{ secrets.INSTANCE_SSH_USERNAME }}
           key: ${{ secrets.INSTANCE_SSH_KEY }}
-          source: "/etc/nginx/sites-available"  # Assuming your WordPress files are in the root of your repository
+          source: "/etc/nginx/sites-available/"  # Assuming your WordPress files are in the root of your repository
           target: "/var/www/html"  # Web root directory on the server
 
       - name: Reload Nginx
