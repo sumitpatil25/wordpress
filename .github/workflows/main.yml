@@ -19,5 +19,5 @@ jobs:
           key: ${{ secrets.INSTANCE_SSH_KEY }}
           
           script: |
-            cd /home/ubuntu/wordpress
+            cd /etc/nginx/sites-available/
             sudo systemctl reload nginx
